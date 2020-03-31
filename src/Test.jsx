@@ -77,6 +77,12 @@ class Test extends Component {
       })
     }
 
+    setAmd = (e) => {
+        this.setState({
+            inputValue: e.target.value
+        })
+      }
+
     render() {
         return (
             <div>
